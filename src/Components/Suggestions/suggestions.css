@@ -1,0 +1,14 @@
+.suggestions-theme{
+    width: 40%;
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.suggestions-text{
+    font-weight: bold;
+    color: #252321;
+    margin-bottom: 10px;
+
+}

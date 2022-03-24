@@ -1,0 +1,63 @@
+
+
+
+
+.explore { color: #252321; font-family: 'Helvetica Neue', sans-serif; font-size: 175px; font-weight: bold; letter-spacing: -1px; line-height: 1; text-align: center; }
+
+
+.exploreh2 { color: #FF8962; font-family: 'Open Sans', sans-serif; font-size: 30px; font-weight: 300; line-height: 32px; margin: 0 0 72px; text-align: center; height: 0px; }
+
+
+.explorep { color: #252321; font-family: 'Helvetica Neue', sans-serif; font-size: 14px; line-height: 24px; margin: 0 0 24px; text-align: justify; text-justify: inter-word; text-align: center;  }
+
+
+.div-writeup{
+    width:500px;
+    height:300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 25vh;
+    background-color: white;
+    transform: scale(1.5);
+} 
+
+.editp { color: #252321; font-family: 'Helvetica Neue', sans-serif; font-size: 5px; font-weight: 300; line-height: 10px; text-align: center; height: 90px; }
+
+input{
+    width: 95%;
+    border: 1px solid #dbdbdb;
+    padding: 5px;
+    margin: 2px 0;
+    border-radius: 5px;
+    background-color: #fafafa;
+    box-shadow: none;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+button{
+    width: 100%;
+    margin: 5px 0;
+    background-color: #FF8962;
+    font-family: 'Open Sans Condensed', sans-serif;
+    padding: 5px;
+    font-weight: 600;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.video-style{
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    top: 50%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}

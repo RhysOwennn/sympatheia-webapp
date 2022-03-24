@@ -1,0 +1,32 @@
+
+.parent-div{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+}
+
+.parent-sub{
+    width: 40%;
+}
+
+
+.sub-sub{
+    width: 150px;
+    position: relative;
+    left: 50%;
+}
+
+.details-parent{
+    display: flex;
+    flex-direction: column;
+}
+
+.username-class{
+    font-size: 2.5rem;
+}
+
+.name-class{
+    font-weight: bold;
+}

@@ -1,0 +1,16 @@
+
+
+.parent-class{
+    padding: 5px 0;
+}
+
+.sub-class-1{
+    font-size: 1.5rem;
+    width: min-content;
+    cursor: pointer;
+}
+
+.sub-class-2{
+    font-size: 0.8rem;
+    color: #252321;
+}

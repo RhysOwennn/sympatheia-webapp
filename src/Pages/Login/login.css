@@ -1,0 +1,67 @@
+
+
+.div-login{
+    width:200px;
+    height:300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 25vh;
+    background-color: white;
+    transform: scale(1.5);
+} 
+
+.div-login-logo{
+    height: auto;
+    width: auto;
+    position: relative;
+    align-self: center;
+}
+
+input{
+    width: 95%;
+    border: 1px solid #dbdbdb;
+    padding: 5px;
+    margin: 2px 0;
+    border-radius: 5px;
+    background-color: #fafafa;
+    box-shadow: none;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+button{
+    width: 100%;
+    margin: 5px 0;
+    background-color: #FF8962;
+    font-family: 'Open Sans Condensed', sans-serif;
+    padding: 5px;
+    font-weight: 600;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.sympatheia-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-weight: 600;
+    color: #252321;
+    margin: 0 auto;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.video-style{
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    top: 50%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
