@@ -25,7 +25,7 @@ class Writeup extends Component {
         alert('Your text was analyzed ' + this.state.value);
         event.preventDefault();
 
-        axios.post("http://127.0.0.1:5000/writeup", this.state, {
+        axios.post("https://sympatheiaserver.herokuapp.com/writeup", this.state, {
             headers: {
                 "content-type": "application/json"
             }
